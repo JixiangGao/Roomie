@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <p>
 <a href="https://github.com/youzan/"><img alt="有赞logo" width="36px" src="https://img.yzcdn.cn/public_files/2017/02/09/e84aa8cbbf7852688c86218c1f3bbf17.png" alt="youzan">
 </p></a>
@@ -160,3 +161,9 @@ Page(Object.assign({}, Zan.Toast, {
 [Bower]: https://bower.io/
 [小程序简易教程]: https://mp.weixin.qq.com/debug/wxadoc/dev/
 [小程序框架介绍]: https://mp.weixin.qq.com/debug/wxadoc/dev/framework/MINA.html
+=======
+# Roomie
+RoomieLifePlatform
+
+增添首页
+>>>>>>> 07c127dae8c30456910e0c90dac282f9e36f386c
