@@ -1,46 +1,30 @@
 {
   "pages":[
-    "pages/index/index",
-    "pages/Roomie/Roomie",
-    "pages/I/I",
-    "pages/test/test"
+    "example/dashboard/index",
+    "example/btn/index",
+    "example/badge/index",
+    "example/cell/index",
+    "example/label/index",
+    "example/loadmore/index",
+    "example/panel/index",
+    "example/tab/index",
+    "example/quantity/index",
+    "example/toptips/index",
+    "example/helper/index",
+    "example/form/index",
+    "example/steps/index",
+    "example/switch/index",
+    "example/card/index",
+    "example/toast/index",
+    "example/icon/index",
+    "example/dialog/index"
   ],
-  "tabBar": {
-    "color": "black",
-    "selectedColor": "#3cc51f",
-    "borderStyle": "black",
-    "backgroundColor": "#white",
-    "position":"bottom",
-    "list": [{
-        "pagePath": "pages/index/index",
-        "text": "index",
-        "iconPath": "image/icon/home.png",
-        "selectedIconPath":"image/icon/home.png"
-      }, {
-        "pagePath": "pages/Roomie/Roomie",
-        "text": "Roomie",
-        "iconPath": "image/icon/stone.png",
-        "selectedIconPath": "image/icon/stone.png"
-      }, {
-        "pagePath": "pages/I/I",
-        "text": "I",
-        "iconPath": "image/icon/man.png",
-        "selectedIconPath": "image/icon/man.png"
-      }]
-  },
-   "window": {
-    "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "white",
+  "window":{
+    "navigationBarBackgroundColor": "#FAFAFA",
     "navigationBarTitleText": "Roomie",
-    "navigationBarTextStyle": "black"
+    "navigationBarTextStyle":"black",
+    "backgroundTextStyle":"dark",
+    "backgroundColor": "#f9f9f9"
   },
-  "networkTimeout": {
-    "request": 10000,
-    "connectSocket": 10000,
-    "uploadFile": 10000,
-    "downloadFile": 10000
-  },
-  "debug": false
+  "debug": true
 }
-
-
