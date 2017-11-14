@@ -1,0 +1,1 @@
+<view bindlongtap="phoneNumTap">{{phoneNum}}</view>

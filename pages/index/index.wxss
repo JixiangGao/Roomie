@@ -1,0 +1,82 @@
+/**index.wxss**/
+
+
+.function {
+  margin-top: 0rpx;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  /*width：750rpx;*/
+  width: 700rpx;
+}
+
+.item {
+  content: 'abc';
+  /*position: absolute;*/
+  background-color: #3CB371;
+  height: 200rpx;
+  width:340rpx;
+  flex-grow: 1;
+  border: 4rpx solid #efeff4;
+}
+
+.item2 {
+  content: 'abc';
+  /*position: absolute;*/
+  background-color: #3CB371;
+  height: 408rpx;
+  width:250rpx;
+  flex-grow: 1;
+  border: 4rpx solid #efeff4;
+}
+
+.item3 {
+  /*margin-top: 0rpx;*/
+  /*display: flex;*/
+  /*flex-wrap: wrap;*/
+  /*justify-content: space-around;*/
+  /*width：750rpx;*/
+  width: 351rpx;
+  
+}
+
+.icon {
+ width:80rpx; 
+ height:80rpx; 
+ margin-top: 30rpx;
+ margin-left: 130rpx;
+}
+
+.icon_column_2 {
+ width:80rpx; 
+ height:80rpx; 
+ margin-top: 130rpx;
+ margin-left: 130rpx;
+}
+
+.text {
+  margin-left: 105rpx;
+  font-family: 微软雅黑;
+  font-size: 34rpx;
+}
+
+/*.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}*/
