@@ -15,7 +15,7 @@
         </view>
         <view class="item">
           <image class="icon" mode="scaleToFill" src="../../image/icon/roomate1.png"  alt=""/>
-          <view class="text">匹配室友</view>
+          <view bindtap="toast" class="text">匹配室友</view>
         </view>
          <view class="item">
           <image class="icon" mode="scaleToFill" src="../../image/icon/message.png"  alt=""/>

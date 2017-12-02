@@ -9,6 +9,11 @@ Page({
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo')
   },
+  toast: function () {
+    wx.navigateTo({
+      url: '../match/match'
+    })
+  },
   //事件处理函数
   bindViewTap: function() {
     wx.navigateTo({

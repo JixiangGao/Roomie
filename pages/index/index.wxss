@@ -13,7 +13,7 @@
 .item {
   content: 'abc';
   /*position: absolute;*/
-  background-color: #3CB371;
+  background-color: #43a851;
   height: 200rpx;
   width:340rpx;
   flex-grow: 1;
@@ -23,7 +23,7 @@
 .item1 {
   content: 'abc';
   /*position: absolute;*/
-  background-color: #3CB371;
+  background-color: #43a851;
   height: 200rpx;
   width:700rpx;
   flex-grow: 1;
@@ -33,7 +33,7 @@
 .item2 {
   content: 'abc';
   /*position: absolute;*/
-  background-color: #3CB371;
+  background-color: #43a851;
   height: 408rpx;
   width:250rpx;
   flex-grow: 1;
