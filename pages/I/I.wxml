@@ -1,0 +1,16 @@
+<!--pages/I/I.wxml-->
+
+<view>
+    <view class="page-top">
+         <view  bindtap="bindViewTap" class="userinfo">
+            <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+            <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+            <image class="set_icon" src="../../image/icon/set.png" background-size="cover"></image>  
+        </view>
+        
+    </view>
+
+    <view class="page-body">
+        <view class="text">Roomie</view>
+    </view>
+</view>

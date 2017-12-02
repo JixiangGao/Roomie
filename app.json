@@ -1,0 +1,47 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/Roomie/Roomie",
+    "pages/I/I",
+    "pages/test/test",
+    "pages/match/match"
+  ],
+  "tabBar": {
+    "color": "black",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#white",
+    "position":"bottom",
+    "list": [{
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "image/icon/home.png",
+        "selectedIconPath":"image/icon/home.png"
+      }, {
+        "pagePath": "pages/Roomie/Roomie",
+        "text": "生活圈",
+        "iconPath": "image/icon/stone.png",
+        "selectedIconPath": "image/icon/stone.png"
+      }, {
+        "pagePath": "pages/I/I",
+        "text": "我的",
+        "iconPath": "image/icon/man.png",
+        "selectedIconPath": "image/icon/man.png"
+      }]
+  },
+   "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "white",
+    "navigationBarTitleText": "Roomie",
+    "navigationBarTextStyle": "black"
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "connectSocket": 10000,
+    "uploadFile": 10000,
+    "downloadFile": 10000
+  },
+  "debug": false
+}
+
+
