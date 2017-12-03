@@ -1169,4 +1169,10 @@
 </view>
 
 
+
+<!--主要的按钮,点击背景有效果  -->
+<button type="warn" size="{{warnSize}}"
+         bindtap="setWarn" hover-class="button-hover" class="margin-button"> 提交 </button>
+
+
 </view>

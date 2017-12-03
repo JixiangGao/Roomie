@@ -1,7 +1,8 @@
 var app = getApp();
 
 var pageData = {
-  data: { "title_ele1": { "type": "title-ele", "style": "opacity:1;line-height:58.59375rpx;background-color:#efefef;border-color:rgb(34, 34, 34);border-style:none;color:#666;font-size:32.8125rpx;margin-left:auto;margin-right:auto;", "content": "以下内容仅作为匹配用途，绝对保密，请真实填写。", "customFeature": { "mode": 1, "markColor": "rgb(120, 63, 4)", "boxColor": "#000", "boxR": "5px", "boxStyle": false, "boxX": "0", "boxY": "0", "action": "inner-link", "inner-page-link": "prePage" }, "animations": [], "page_form": "", "compId": "title_ele1", "parentCompid": "title_ele1", "markColor": "rgb(120, 63, 4)", "mode": 1, "itemType": "title-ele", "itemParentType": null, "itemIndex": "title_ele1", "eventParams": "{\"inner_page_link\":\"\\\/pages\\\/prePage\\\/prePage\",\"is_redirect\":0}", "eventHandler": "tapInnerLinkHandler" },
+  data: { 
+    "title_ele1": { "type": "title-ele", "style": "opacity:1;line-height:58.59375rpx;background-color:#efefef;border-color:rgb(34, 34, 34);border-style:none;color:#666;font-size:32.8125rpx;margin-left:auto;margin-right:auto;", "content": "以下内容仅作为匹配用途，绝对保密，请真实填写。", "customFeature": { "mode": 1, "markColor": "rgb(120, 63, 4)", "boxColor": "#000", "boxR": "5px", "boxStyle": false, "boxX": "0", "boxY": "0", "action": "inner-link", "inner-page-link": "prePage" }, "animations": [], "page_form": "", "compId": "title_ele1", "parentCompid": "title_ele1", "markColor": "rgb(120, 63, 4)", "mode": 1, "itemType": "title-ele", "itemParentType": null, "itemIndex": "title_ele1", "eventParams": "{\"inner_page_link\":\"\\\/pages\\\/prePage\\\/prePage\",\"is_redirect\":0}", "eventHandler": "tapInnerLinkHandler" },
   
    "form_vessel2": { "type": "form-vessel", "style": "background-color:rgba(0, 0, 0, 0);opacity:1;margin-left:auto;", "content": [{ "type": "select-ele", "style": "background-color:rgba(0, 0, 0, 0);margin-top:0;line-height:65.625rpx;opacity:1;margin-left:auto;margin-right:auto;width:750rpx;color:rgb(0,0,0);font-size:32.8125rpx;", "content": { "lists": ["一天一次", "两天一次", "一个星期最多三次", "一个星期至少一次", "一个月不到三次"], "title": "秋天的你，多久洗一次澡？", "formCompid": "form_vessel2" }, "customFeature": { "lineBackgroundColor": "rgb(147, 196, 125)", "lineBackgroundImage": "", "secColor": "#ffffff", "secFontSize": "16px", "secLineHeight": "35px", "selectAmount": 1, "secFontWeight": "bold", "secFontStyle": "", "secTextDecoration": "" }, "animations": [], "compId": "data.content[0]", "formCompid": "form_vessel2", "segment_required": 0, "parentCompid": "form_vessel2", "titleStyle": "color:#ffffff;font-size:37.5rpx;font-weight:bold;background-color:rgb(147, 196, 125);line-height:82.03125rpx;margin-left:auto;" }], "customFeature": { "form": "" }, "animations": [], "page_form": "", "compId": "form_vessel2", "form": "", "field_info": [], "formCompid": "form_vessel2" }, 
    
@@ -37,6 +38,9 @@ var pageData = {
 
 
    "form_vessel18": { "type": "form-vessel", "style": "background-color:rgba(0, 0, 0, 0);opacity:1;margin-left:auto;", "content": [{ "type": "select-ele", "style": "background-color:rgba(0, 0, 0, 0);margin-top:0;line-height:65.625rpx;opacity:1;margin-right:auto;width:750rpx;color:rgb(0,0,0);font-size:32.8125rpx;margin-left:auto;", "content": { "lists": ["可爱多", "不会，太贵了，不划算", "梦龙", "哈根达斯", "Cold Stone冰激凌", "DQ", "东北大板", "Godiva冰激凌", "爱茜茜里", "八喜", "蒙牛", "光明","伊利","便利店的"], "title": "下列品牌的冰激凌你吃过哪些？", "formCompid": "form_vessel18" }, "customFeature": { "lineBackgroundColor": "rgb(147, 196, 125)", "lineBackgroundImage": "", "secColor": "#ffffff", "secFontSize": "16px", "secLineHeight": "35px", "selectAmount": 13, "secFontWeight": "bold", "secFontStyle": "", "secTextDecoration": "" }, "animations": [], "compId": "data.content[0]", "formCompid": "form_vessel18", "segment_required": 0, "parentCompid": "form_vessel18", "titleStyle": "color:#ffffff;font-size:37.5rpx;font-weight:bold;background-color:rgb(147, 196, 125);line-height:82.03125rpx;margin-left:auto;" }], "customFeature": { "form": "" }, "animations": [], "page_form": "", "compId": "form_vessel18", "form": "", "field_info": [], "formCompid": "form_vessel18" },
+
+   warnSize: 'default',
+ 
     },
   need_login: true,
   page_router: 'match',
@@ -87,14 +91,15 @@ var pageData = {
   },
 
 
-
-
-
-
-
-
-
-
+  //设计按钮的大小
+  setSize: function () {
+    this.setData({
+      warnSize: this.data.defaultSize == 'default' ? 'mini' : 'default',
+    })
+  },
+  setWarn: function () {
+    console.log('setWarn....')
+  },
 
 
 };

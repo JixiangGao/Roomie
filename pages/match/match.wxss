@@ -1,1 +1,14 @@
 page{background-color:#dde3de;margin-left:auto;}
+.button-hover {
+  background-color: yellow;
+  opacity: 0.7;
+}
+/** 添加自定义button点击态样式类**/
+.other-button-hover {
+  background-color: green;
+  opacity: 0.7;
+}
+.margin-button{
+    margin-top: 10px;
+}
+
