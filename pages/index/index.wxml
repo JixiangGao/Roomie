@@ -13,9 +13,9 @@
           <image class="icon_row_2" mode="scaleToFill" src="../../image/icon/sharing.png"  alt=""/>
           <view class="text_row_2">活动分享</view>
         </view>
-        <view class="item">
+        <view bindtap="toast" class="item">
           <image class="icon" mode="scaleToFill" src="../../image/icon/roomate1.png"  alt=""/>
-          <view bindtap="toast" class="text">匹配室友</view>
+          <view class="text">匹配室友</view>
         </view>
          <view class="item">
           <image class="icon" mode="scaleToFill" src="../../image/icon/message.png"  alt=""/>

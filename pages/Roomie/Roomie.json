@@ -1,1 +1,6 @@
-{}
+{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "生活圈",
+    "navigationBarTextStyle":"black"
+}
