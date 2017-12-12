@@ -19,6 +19,11 @@ Page({
       url: '../share/share'
     })
   },
+  CleanUp: function () {
+    wx.navigateTo({
+      url: '../CleanUp/CleanUp'
+    })
+  },
   //事件处理函数
   bindViewTap: function() {
     wx.navigateTo({
