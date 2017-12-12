@@ -1,0 +1,21 @@
+<!--pages/CleanUp/CleanUp.wxml-->
+
+<view class="table">
+  <view class="tr bg-w">
+    <view class="th">星期</view>
+    <view class="th">值日员</view>
+    <view class="th ">时间</view>
+  </view>
+  <block wx:for="{{listData}}" wx:key="{{code}}">
+    <view class="tr bg-1" wx:if="{{index % 2 == 0}}">
+      <view class="td">{{item.week}}</view>
+      <view class="td">{{item.name}}</view>
+      <view class="td">{{item.time}}</view>
+    </view>
+    <view class="tr bg-2" wx:else>
+      <view class="td">{{item.week}}</view>
+      <view class="td">{{item.name}}</view>
+      <view class="td">{{item.time}}</view>
+    </view>
+  </block>
+</view>

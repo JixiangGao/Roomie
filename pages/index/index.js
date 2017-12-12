@@ -14,9 +14,9 @@ Page({
       url: '../match/match'
     })
   },
-  share: function(){
+  LinkToCleanUp: function () {
     wx.navigateTo({
-      url: '../share/share'
+      url: '../CleanUp/CleanUp'
     })
   },
   //事件处理函数

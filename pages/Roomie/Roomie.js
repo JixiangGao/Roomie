@@ -384,7 +384,7 @@ Page({
           if(res.tapIndex == 0)
           {
             wx.redirectTo({
-              url: '../../pages/share/share?userId='+that.data.userStatus.userId+'&address='+that.data.userStatus.address+'&name='+that.data.userStatus.name+'&lat='+that.data.userStatus.lat+'&lnt='+that.data.userStatus['lnt'] 
+              url: '../../pages/addComment/addComment?userId='+that.data.userStatus.userId+'&address='+that.data.userStatus.address+'&name='+that.data.userStatus.name+'&lat='+that.data.userStatus.lat+'&lnt='+that.data.userStatus['lnt'] 
             })
           }    
         }
