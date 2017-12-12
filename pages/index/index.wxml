@@ -9,7 +9,7 @@
           <image class="icon" mode="scaleToFill" src="../../image/icon/lifeRecord.png"  alt=""/>
           <view class="text">生活记录</view>
         </view>-->
-        <view class="item1">
+        <view bindtap="share" class="item1">
           <image class="icon_row_2" mode="scaleToFill" src="../../image/icon/sharing.png"  alt=""/>
           <view class="text_row_2">活动分享</view>
         </view>

@@ -4,13 +4,14 @@
     "pages/Roomie/Roomie",
     "pages/I/I",
     "pages/test/test",
-    "pages/match/match"
+    "pages/match/match",
+    "pages/share/share"
   ],
   "tabBar": {
     "color": "black",
     "selectedColor": "#3cc51f",
-    "borderStyle": "black",
-    "backgroundColor": "#white",
+    "borderStyle": "white",
+    "backgroundColor": "white",
     "position":"bottom",
     "list": [{
         "pagePath": "pages/index/index",
@@ -31,7 +32,7 @@
   },
    "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "white",
+    "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "Roomie",
     "navigationBarTextStyle": "black"
   },

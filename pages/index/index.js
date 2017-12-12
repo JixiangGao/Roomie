@@ -14,6 +14,11 @@ Page({
       url: '../match/match'
     })
   },
+  share: function(){
+    wx.navigateTo({
+      url: '../share/share'
+    })
+  },
   //事件处理函数
   bindViewTap: function() {
     wx.navigateTo({
