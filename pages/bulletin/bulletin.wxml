@@ -1,0 +1,20 @@
+<!--bulletin.wxml-->
+<view class="bulletin">
+  <view class="function">
+    <view class="title-box">
+      <input class="input" name="title" placeholder="标题"/>
+    </view>
+    <view class="text-box">
+      <input class="input" name="content" placeholder="正文"/>
+    </view>
+    <view class="pic-box">
+      <image class="icon-add" mode="scaleToFill" src="../../image/icon/add.png"  alt=""/> 
+      <text class="note-text">添加图片</text>
+    </view>
+    <view class="choose-box">
+    <image class="icon-arrow" mode="scaleToFill" src="../../image/icon/keyboard-right-arrow-button.png"  alt=""/>
+    <text class="note-text">选择消息接收者</text>  
+    </view>
+    <button class="upload-botton" type="primary">提交</button>
+  </view>
+</view>

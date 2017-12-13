@@ -9,6 +9,11 @@ Page({
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo')
   },
+  toBulletin: function () {
+    wx.navigateTo({
+      url: '../bulletin/bulletin'
+    })
+  },
   toast: function () {
     wx.navigateTo({
       url: '../match/match'

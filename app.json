@@ -5,7 +5,8 @@
     "pages/I/I",
     "pages/test/test",
     "pages/match/match",
-    "pages/share/share"
+    "pages/share/share",
+    "pages/bulletin/bulletin"
   ],
   "tabBar": {
     "color": "black",

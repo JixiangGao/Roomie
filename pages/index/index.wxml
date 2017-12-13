@@ -22,7 +22,7 @@
           <view class="text">寝室通知</view>
         </view>
         <view class="item3" style="flex-direction: column;">
-          <view class="item">
+          <view bindtap="toBulletin" class="item">
            <image class="icon" mode="scaleToFill" src="../../image/icon/gaoshi.png"  alt=""/>
            <view class="text">告示发布</view>
           </view>
