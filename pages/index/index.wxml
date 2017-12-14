@@ -9,6 +9,7 @@
           <image class="icon" mode="scaleToFill" src="../../image/icon/lifeRecord.png"  alt=""/>
           <view class="text">生活记录</view>
         </view>-->
+<<<<<<< HEAD
       <view bindtap="share" class="item1">
         <image class="icon_row_2" mode="scaleToFill" src="../../image/icon/sharing.png" alt="" />
         <view class="text_row_2">活动分享</view>
@@ -28,6 +29,27 @@
         </view>
         <view bindtap="CleanUp" class="item">
           <image class="icon" mode="scaleToFill" src="../../image/icon/cleaning.png" alt="" />
+=======
+        <view bindtap="share" class="item1">
+          <image class="icon_row_2" mode="scaleToFill" src="../../image/icon/sharing.png"  alt=""/>
+          <view class="text_row_2">活动分享</view>
+        </view>
+        <view bindtap="toast" class="item">
+          <image class="icon" mode="scaleToFill" src="../../image/icon/roomate1.png"  alt=""/>
+          <view class="text">匹配室友</view>
+        </view>
+         <view bindtap="toNotify" class="item">
+          <image class="icon" mode="scaleToFill" src="../../image/icon/message.png"  alt=""/>
+          <view class="text">寝室通知</view>
+        </view>
+        <view class="item3" style="flex-direction: column;">
+          <view bindtap="toBulletin" class="item">
+           <image class="icon" mode="scaleToFill" src="../../image/icon/gaoshi.png"  alt=""/>
+           <view class="text">告示发布</view>
+          </view>
+          <view class="item">
+            <image class="icon" mode="scaleToFill" src="../../image/icon/cleaning.png"  alt=""/>
+>>>>>>> df3271dd39f9644e7594be2cfbef7e717143cc95
           <view class="text">打扫卫生</view>
         </view>
       </view>

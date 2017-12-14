@@ -9,6 +9,16 @@ Page({
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo')
   },
+  toBulletin: function () {
+    wx.navigateTo({
+      url: '../bulletin/bulletin'
+    })
+  },
+  toNotify: function () {
+    wx.navigateTo({
+      url: '../notify/notify'
+    })
+  },
   toast: function () {
     wx.navigateTo({
       url: '../match/match'

@@ -6,7 +6,9 @@
     "pages/test/test",
     "pages/match/match",
     "pages/share/share",
-    "pages/CleanUp/CleanUp"
+    "pages/CleanUp/CleanUp",
+    "pages/bulletin/bulletin",
+    "pages/notify/notify",
   ],
   "tabBar": {
     "color": "black",

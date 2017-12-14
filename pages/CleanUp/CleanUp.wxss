@@ -1,4 +1,5 @@
 /* pages/CleanUp/CleanUp.wxss */
+@import "weui.wxss";
 
 .table {
   border: 0px solid darkgray;
