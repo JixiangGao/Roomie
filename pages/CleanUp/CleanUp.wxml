@@ -19,37 +19,3 @@
     </view>
   </block>
 </view>
-
-<view class="container">
-  <template is="head" data="{{title: 'get/set/clearStorage'}}"/>
-
-  <view class="page-body">
-    <view class="page-section">
-      <view class="weui-cells weui-cells_after-title">
-        <view class="weui-cell weui-cell_input">
-          <view class="weui-cell__hd">
-            <view class="weui-label">week</view>
-          </view>
-          <view class="weui-cell__bd">
-            <input class="weui-input" type="text" placeholder="请输入week" name="week" value="{{week}}" bindinput="keyChange"></input>
-          </view>
-        </view>
-        <view class="weui-cell weui-cell_input">
-          <view class="weui-cell__hd">
-            <view class="weui-label">name</view>
-          </view>
-          <view class="weui-cell__bd">
-            <input class="weui-input" type="text" placeholder="请输入name" name="name" value="{{name}}" bindinput="dataChange"></input>
-          </view>
-        </view>
-      </view>
-      <view class="btn-area">
-        <button type="primary" bindtap="setStorage">存储数据</button>
-        <button bindtap="getStorage">读取数据</button>
-      </view>
-    </view>
-  </view>
-
-  <modal title="{{dialog.title}}" hidden="{{dialog.hidden}}" no-cancel bindconfirm="confirm">{{dialog.content}}</modal>
-
-</view>
