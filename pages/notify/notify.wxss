@@ -1,0 +1,28 @@
+page{
+  background-color: #F3F3F5;
+}
+
+.notify-box {
+  width: 100%;
+  height: 350rpx;
+  margin-top: 30rpx;
+  background: #FFFFFF;
+}
+
+.info-text {
+  color: grey;
+  margin-left: 20rpx;
+}
+
+.title-text {
+  font-size: 120%;
+  margin-top: 20rpx;
+  margin-left: 300rpx;
+}
+
+.content-text {
+   font-size: 80%;
+   text-align: justify;
+   margin-left: 20rpx;
+   margin-top: 30rpx;
+}

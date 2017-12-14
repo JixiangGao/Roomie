@@ -1,0 +1,25 @@
+<!--notify.wxml-->
+<scroll-view class="box" scroll-y="true" style="height:1200rpx"  bindscroll="scrollHandle" lower-threshold="50" bindscrolltolower="scrollLoading" scroll-top="{{scrolltop}}">
+  <view class="function">
+    <view class="notify-box">
+      <text class="info-text">来自：辅导员\n</text>
+      <text class="title-text">提交表格</text>
+      <textarea class="content-text">This marks the departure of one of Trump's most prominent supporters and team members, a rare minority on his senior staff and often the only person of color at White House meetings.</textarea>
+    </view>
+    <view class="notify-box">
+    <text class="info-text">来自：宿舍管理员\n</text>
+      <text class="title-text">卫生检查</text>
+      <textarea class="content-text">This marks the departure of one of Trump's most prominent supporters and team members, a rare minority on his senior staff and often the only person of color at White House meetings.</textarea>
+    </view>
+    <view class="notify-box">
+    <text class="info-text">来自：快递员\n</text>
+      <text class="title-text">快递领取</text>
+      <textarea class="content-text">This marks the departure of one of Trump's most prominent supporters and team members, a rare minority on his senior staff and often the only person of color at White House meetings.</textarea>
+    </view>
+    <view class="notify-box">
+    <text class="info-text">来自：电费\n</text>
+      <text class="title-text">余额不足</text>
+      <textarea class="content-text">This marks the departure of one of Trump's most prominent supporters and team members, a rare minority on his senior staff and often the only person of color at White House meetings.</textarea>
+    </view>
+  </view>
+</scroll-view>

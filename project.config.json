@@ -9,8 +9,8 @@
 	},
 	"compileType": "miniprogram",
 	"libVersion": "1.6.0",
-	"appid": "wx175d7cb7a9c17775",
-	"projectname": "roomie",
+	"appid": "touristappid",
+	"projectname": "roomie2",
 	"condition": {
 		"search": {
 			"current": -1,

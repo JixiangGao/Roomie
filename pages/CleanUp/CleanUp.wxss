@@ -16,7 +16,7 @@
   width: 40%;
   justify-content: center;
   text-align: center;
-  font-size: 40rpx;
+  font-size: 30rpx;
 }
 
 .bg-w {
@@ -39,5 +39,5 @@
   display: flex;
   height: 3rem;
   align-items: center;
-  font-size: 50rpx;
+  font-size: 35rpx;
 }
