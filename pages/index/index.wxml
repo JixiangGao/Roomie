@@ -17,7 +17,7 @@
           <image class="icon" mode="scaleToFill" src="../../image/icon/roomate1.png"  alt=""/>
           <view class="text">匹配室友</view>
         </view>
-         <view class="item">
+         <view bindtap="toNotify" class="item">
           <image class="icon" mode="scaleToFill" src="../../image/icon/message.png"  alt=""/>
           <view class="text">寝室通知</view>
         </view>

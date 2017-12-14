@@ -14,6 +14,11 @@ Page({
       url: '../bulletin/bulletin'
     })
   },
+  toNotify: function () {
+    wx.navigateTo({
+      url: '../notify/notify'
+    })
+  },
   toast: function () {
     wx.navigateTo({
       url: '../match/match'
